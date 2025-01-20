@@ -15,3 +15,24 @@ Here are the various data source used for the climate dataset
 | Comand       | Description                                    |
 | `git clone`  | Making a copy of the remote repository locally |
 | `git status` | List all new, removed or modified files        |
+
+Here is a code block
+```
+git clone
+git status
+```
+Here is a python code block
+```python
+var = 5
+print(var)
+```
+
+
+Here is a simple flow chart:
+```mermaid
+graph TD;
+    ECCC-->Analysis
+    Agrométéo-->Analysis;
+    CoCoRaHS-->Analysis;
+    Analysis-->Dashboard;
+```
