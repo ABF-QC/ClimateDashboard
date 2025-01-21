@@ -10,9 +10,11 @@ Here are the various data source used for the climate dataset
 - [Agrométéo Québec](https://www.agrometeo.org/index.php/weather/local)  
 - [CoCoRaHS](https://maps.cocorahs.org/)  
 
+
 <!-- Hidden content -->
 
 | Comand       | Description                                    |
+| ------------ | ---------------------------------------------- |
 | `git clone`  | Making a copy of the remote repository locally |
 | `git status` | List all new, removed or modified files        |
 
@@ -36,6 +38,14 @@ graph TD;
     CoCoRaHS-->Analysis;
     Analysis-->Dashboard;
 ```
+
+<details>
+
+<summary>Overview of data's domain</summary>
+
+### Dashboard domain
+
+At the moment, the climate data were analyzed overt the Quebec's Province only.
 
 
 ```geojson
@@ -6109,4 +6119,4 @@ graph TD;
   ]
 }
 ```
-
+</details>
