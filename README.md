@@ -13,7 +13,7 @@ Here are the various data source used for the climate dataset
 
 <!-- Hidden content -->
 
-| Comand       | Description                                    |
+| Command       | Description                                    |
 | ------------ | ---------------------------------------------- |
 | `git clone`  | Making a copy of the remote repository locally |
 | `git status` | List all new, removed or modified files        |
